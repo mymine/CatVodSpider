@@ -25,7 +25,7 @@ dependencies {
     implementation("org.nanohttpd:nanohttpd:2.3.1")
     implementation("com.google.zxing:core:3.3.0")
     implementation("org.jsoup:jsoup:1.15.3")
-    implementation("cn.hutool:hutool-all:5.8.27")
+    implementation("cn.hutool:hutool-all:5.8.28")
     implementation("com.google.guava:guava:32.1.3-jre")
     // https://mvnrepository.com/artifact/org.json/json
     implementation("org.json:json:20231013")
