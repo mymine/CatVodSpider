@@ -21,7 +21,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:5.0.0-alpha.12")
     implementation("com.google.code.gson:gson:2.8.9")
     implementation("com.github.lookfirst:sardine:5.10")
-    implementation("cn.wanghaomiao:JsoupXpath:2.5.1")
+    implementation("cn.wanghaomiao:JsoupXpath:2.5.3")
     implementation("org.nanohttpd:nanohttpd:2.3.1")
     implementation("com.google.zxing:core:3.3.0")
     implementation("org.jsoup:jsoup:1.15.3")
