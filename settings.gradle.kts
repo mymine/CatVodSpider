@@ -8,7 +8,7 @@ pluginManagement {
     }
 
     plugins {
-        val kotlinVer = "1.9.23"
+        val kotlinVer = "1.9.24"
         val composeVer = "1.6.2"
         kotlin("jvm").version(kotlinVer)
         kotlin("multiplatform").version(kotlinVer)
