@@ -29,9 +29,9 @@ dependencies {
     implementation("com.google.guava:guava:32.1.3-jre")
     // https://mvnrepository.com/artifact/org.json/json
     implementation("org.json:json:20231013")
-    implementation("io.ktor:ktor-server-core:2.3.7")
-    implementation("io.ktor:ktor-client-core:2.3.7")
-    implementation("io.ktor:ktor-client-cio:2.3.7")
+    implementation("io.ktor:ktor-server-core:2.3.12")
+    implementation("io.ktor:ktor-client-core:2.3.12")
+    implementation("io.ktor:ktor-client-cio:2.3.12")
     implementation(kotlin("stdlib-jdk8"))
 
     implementation(compose.foundation)
