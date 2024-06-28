@@ -9,7 +9,7 @@ pluginManagement {
 
     plugins {
         val kotlinVer = "1.9.23"
-        val composeVer = "1.6.2"
+        val composeVer = "1.6.11"
         kotlin("jvm").version(kotlinVer)
         kotlin("multiplatform").version(kotlinVer)
         id("org.jetbrains.compose").version(composeVer)
