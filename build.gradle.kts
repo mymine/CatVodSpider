@@ -23,7 +23,7 @@ dependencies {
     implementation("com.github.lookfirst:sardine:5.10")
     implementation("cn.wanghaomiao:JsoupXpath:2.5.1")
     implementation("org.nanohttpd:nanohttpd:2.3.1")
-    implementation("com.google.zxing:core:3.3.0")
+    implementation("com.google.zxing:core:3.5.3")
     implementation("org.jsoup:jsoup:1.15.3")
     implementation("cn.hutool:hutool-all:5.8.27")
     implementation("com.google.guava:guava:32.1.3-jre")
