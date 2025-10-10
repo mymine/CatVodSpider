@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;7df1f46baf40c21051abe0182086bef4",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;49c24003ea2a52abb468ad7661ae1730",
   "lives": [
     {
       "name": "电视直播",
@@ -141,6 +141,14 @@
       "name": "夸克网盘社",
       "type": 3,
       "api": "csp_KuaKeS",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },{
+      "key": "ReBoYingShi",
+      "name": "热播影视4k",
+      "type": 3,
+      "api": "csp_ReBoYingShi",
       "searchable": 1,
       "changeable": 1,
       "ext": {}
