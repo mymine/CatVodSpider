@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;49c24003ea2a52abb468ad7661ae1730",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;1b4f17a721470f8b074d883d9d4c4839",
   "lives": [
     {
       "name": "电视直播",
@@ -66,7 +66,6 @@
       "changeable": 1,
       "ext": "{\"site\": [\"https://www.wogg.net/\",\"https://wogg.xxooo.cf/\"]}"
     },
-
     {
       "key": "PanTa",
       "name": "盘他|139Pan",
@@ -93,7 +92,8 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    },  {
+    },
+    {
       "key": "TgSearch",
       "name": "TgSearch|Pan",
       "type": 3,
@@ -101,7 +101,8 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    }, {
+    },
+    {
       "key": "TgQuarkSearch",
       "name": "TgQuarkSearch|Pan",
       "type": 3,
@@ -109,7 +110,8 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    }, {
+    },
+    {
       "key": "Tg189Search",
       "name": "Tg189Search|Pan",
       "type": 3,
@@ -117,6 +119,24 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
+    },
+    {
+      "key": "TgSearchBaidu",
+      "name": "☁TgSearchBaidu┃网盘",
+      "type": 3,
+      "api": "csp_TgSearchBaidu",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://psweb.banye.tech:7777/api/search",
+          "https://so.566987.xyz/api/search",
+          "http://152.69.222.142:8088/api/search"
+        ],
+        "sources": [
+         "夸克", "百度","天翼","移动"
+        ]
+      }
     },
     {
       "key": "KuaKeBa",
@@ -144,7 +164,8 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    },{
+    },
+    {
       "key": "ReBoYingShi",
       "name": "热播影视4k",
       "type": 3,
@@ -153,7 +174,6 @@
       "changeable": 1,
       "ext": {}
     },
-
     {
       "key": "XuanFeng",
       "name": "旋风影视",
@@ -335,7 +355,6 @@
       "searchable": 1,
       "timeout": 30
     }
-
   ],
   "parses": [
     {
