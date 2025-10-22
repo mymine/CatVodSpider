@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;53bfcd21daf6443ac9c0922ef11a640c",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;442e28f56e42d29e8ced7debc6e2b7d3",
   "lives": [
     {
       "name": "电视直播",
@@ -94,6 +94,14 @@
       "ext": {}
     },
     {
+      "key": "Qupans",
+      "name": "Qupans|Pan",
+      "type": 3,
+      "api": "csp_Qupans",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },{
       "key": "TgSearch",
       "name": "TgSearch|Pan",
       "type": 3,
@@ -134,7 +142,7 @@
           "http://152.69.222.142:8088/api/search"
         ],
         "sources": [
-         "夸克", "百度","天翼","移动"
+         "夸克", "百度","123盘","天翼","移动"
         ]
       }
     },
