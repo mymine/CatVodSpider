@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;37e109189f05fae62f1b17bb8d501b82",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;42679cde91765ee4f4a0de1d8c61a09a",
   "lives": [
     {
       "name": "电视直播",
@@ -362,7 +362,34 @@
       "api": "csp_TianYiSo",
       "searchable": 1,
       "timeout": 30
+    },
+    {
+      "key": "local",
+      "name": "Local",
+      "type": 3,
+      "api": "csp_Local",
+      "searchable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "market",
+      "name": "Market",
+      "type": 3,
+      "api": "csp_Market",
+      "searchable": 0,
+      "changeable": 0,
+      "ext": "./market.json"
+    },
+    {
+      "key": "push_agent",
+      "name": "Push",
+      "type": 3,
+      "api": "csp_Push",
+      "searchable": 0,
+      "changeable": 0,
+      "timeout": 60
     }
+
   ],
   "parses": [
     {
