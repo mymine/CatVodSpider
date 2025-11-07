@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;09dc15c761f67451ac8ca3f286ca15f7",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;05364dcab53ddf2f06f3a483b8a84c8a",
   "lives": [
     {
       "name": "电视直播",
@@ -101,32 +101,23 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    },{
-      "key": "TgSearch",
-      "name": "TgSearch|Pan",
+    },  {
+      "key": "TgSearchQuark",
+      "name": "☁TgSearchQuark┃网盘",
       "type": 3,
-      "api": "csp_TgSearch",
+      "api": "csp_TgSearchQuark",
       "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "TgQuarkSearch",
-      "name": "TgQuarkSearch|Pan",
-      "type": 3,
-      "api": "csp_TgQuarkSearch",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
-    },
-    {
-      "key": "Tg189Search",
-      "name": "Tg189Search|Pan",
-      "type": 3,
-      "api": "csp_Tg189Search",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {}
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://psweb.banye.tech:7777/api/search",
+          "https://so.566987.xyz/api/search",
+          "http://152.69.222.142:8088/api/search"
+        ],
+        "sources": [
+          "夸克"
+        ]
+      }
     },
     {
       "key": "TgSearchBaidu",
@@ -142,7 +133,60 @@
           "http://152.69.222.142:8088/api/search"
         ],
         "sources": [
-         "夸克", "百度","123盘","天翼","移动"
+           "百度"
+        ]
+      }
+    },
+    {
+      "key": "TgSearch123",
+      "name": "☁TgSearch123┃网盘",
+      "type": 3,
+      "api": "csp_TgSearch123",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://psweb.banye.tech:7777/api/search",
+          "https://so.566987.xyz/api/search",
+          "http://152.69.222.142:8088/api/search"
+        ],
+        "sources": [
+          "123盘"
+        ]
+      }
+    },
+    {
+      "key": "TgSearch189",
+      "name": "☁TgSearch189┃网盘",
+      "type": 3,
+      "api": "csp_TgSearch189",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://psweb.banye.tech:7777/api/search",
+          "https://so.566987.xyz/api/search",
+          "http://152.69.222.142:8088/api/search"
+        ],
+        "sources": [
+         "天翼"
+        ]
+      }
+    },{
+      "key": "TgSearch139",
+      "name": "☁TgSearch139┃网盘",
+      "type": 3,
+      "api": "csp_TgSearch139",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://psweb.banye.tech:7777/api/search",
+          "https://so.566987.xyz/api/search",
+          "http://152.69.222.142:8088/api/search"
+        ],
+        "sources": [
+          "移动"
         ]
       }
     },
