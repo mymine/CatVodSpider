@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;05364dcab53ddf2f06f3a483b8a84c8a",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;ffe60fc48a40d42b9683fd739587a740",
   "lives": [
     {
       "name": "电视直播",
@@ -101,7 +101,43 @@
       "searchable": 1,
       "changeable": 1,
       "ext": {}
-    },  {
+    },
+    {
+      "key": "Tg123Search",
+      "name": "Tg123Search",
+      "type": 3,
+      "api": "csp_Tg123Search",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "TgbaiduSearch",
+      "name": "TgbaiduSearch",
+      "type": 3,
+      "api": "csp_TgbaiduSearch",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "Tg189Search",
+      "name": "Tg189Search",
+      "type": 3,
+      "api": "csp_Tg189Search",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },
+    {
+      "key": "TgQuarkSearch",
+      "name": "TgQuarkSearch",
+      "type": 3,
+      "api": "csp_TgQuarkSearch",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
+    },{
       "key": "TgSearchQuark",
       "name": "☁TgSearchQuark┃网盘",
       "type": 3,
@@ -110,6 +146,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
+          "https://api.jkai.de/api/search",
           "https://psweb.banye.tech:7777/api/search",
           "https://so.566987.xyz/api/search",
           "http://152.69.222.142:8088/api/search"
@@ -128,6 +165,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
+          "https://api.jkai.de/api/search",
           "https://psweb.banye.tech:7777/api/search",
           "https://so.566987.xyz/api/search",
           "http://152.69.222.142:8088/api/search"
@@ -146,6 +184,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
+          "https://api.jkai.de/api/search",
           "https://psweb.banye.tech:7777/api/search",
           "https://so.566987.xyz/api/search",
           "http://152.69.222.142:8088/api/search"
@@ -164,6 +203,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
+          "https://api.jkai.de/api/search",
           "https://psweb.banye.tech:7777/api/search",
           "https://so.566987.xyz/api/search",
           "http://152.69.222.142:8088/api/search"
@@ -181,6 +221,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
+          "https://api.jkai.de/api/search",
           "https://psweb.banye.tech:7777/api/search",
           "https://so.566987.xyz/api/search",
           "http://152.69.222.142:8088/api/search"
