@@ -1,5 +1,5 @@
 {
-  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;b1898c41a378b2a29bf3285137f4fae4",
+  "spider": "https://andoridspidermt.netlify.app/jar/custom_spider.jar;md5;a5e2c02359c59385342dede7bae41704",
   "lives": [
     {
       "name": "电视直播",
@@ -65,6 +65,15 @@
       "searchable": 1,
       "changeable": 1,
       "ext": "{\"site\": [\"https://www.wogg.net/\",\"https://wogg.xxooo.cf/\"]}"
+    },
+    {
+      "key": "SeedHub",
+      "name": "SeedHub",
+      "type": 3,
+      "api": "csp_SeedHub",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": {}
     },
     {
       "key": "PanTa",
