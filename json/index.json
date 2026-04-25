@@ -1,5 +1,5 @@
 {
-  "spider": "https://android.lushunming.qzz.io/jar/custom_spider.jar;md5;394ec8de15bcc3e4a5bd8487d4d954c9",
+  "spider": "https://android.lushunming.qzz.io/jar/custom_spider.jar;md5;f2da854dc4d213dfe1d4f173955e1c2d",
   "lives": [
     {
       "name": "电视直播",
@@ -58,13 +58,13 @@
       "filterable": 1
     },
     {
-      "key": "玩偶",
-      "name": "玩偶哥哥",
+      "key": "DuoDuo",
+      "name": "多多视频",
       "type": 3,
-      "api": "csp_Wogg",
+      "api": "csp_DuoDuo",
       "searchable": 1,
       "changeable": 1,
-      "ext": "{\"site\": [\"https://www.wogg.net/\",\"https://wogg.xxooo.cf/\"]}"
+      "ext": "{\"site\": [\"http://xsayang.fun:12512/\",\"https://tv.yydsys.top/\"]}"
     },
     {
       "key": "SeedHub",
@@ -155,11 +155,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
-          "https://api.jkai.de/api/search",
-          "https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
         ],
         "sources": [
           "夸克"
@@ -175,10 +171,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
         ],
         "sources": [
            "百度"
@@ -194,10 +187,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
         ],
         "sources": [
           "123盘"
@@ -213,10 +203,7 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
         ],
         "sources": [
          "天翼"
@@ -231,13 +218,26 @@
       "filterable": 0,
       "ext": {
         "api_urls": [
-          "https://api.jkai.de/api/search","https://so.252035.xyz/api/search",
-          "https://psweb.banye.tech:7777/api/search",
-          "https://so.566987.xyz/api/search",
-          "http://152.69.222.142:8088/api/search"
+            "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
         ],
         "sources": [
           "移动"
+        ]
+      }
+    },
+    {
+      "key": "TgSearchMagnet",
+      "name": "☁TgSearchMagnet┃网盘",
+      "type": 3,
+      "api": "csp_TgSearchMagnet",
+      "searchable": 1,
+      "filterable": 0,
+      "ext": {
+        "api_urls": [
+          "https://so.252035.xyz/api/search","https://s.panhunt.com/api/search","https://www.pansd.icu/api/search"
+        ],
+        "sources": [
+          "磁力"
         ]
       }
     },
