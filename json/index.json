@@ -1,5 +1,5 @@
 {
-  "spider": "https://android.lushunming.qzz.io/jar/custom_spider.jar;md5;e0219b313d1ae065d57b1a12d8f528bc",
+  "spider": "https://android.lushunming.qzz.io/jar/custom_spider.jar;md5;fd0df668fb14a65f8945dd43c62886d2",
   "lives": [
     {
       "name": "电视直播",
@@ -64,7 +64,7 @@
       "api": "csp_Wogg",
       "searchable": 1,
       "changeable": 1,
-      "ext": "{\"site\": [\"http://xsayang.fun:12512/\",\"https://tv.yydsys.top/\"]}"
+      "ext": "{\"site\": [\"https://wogg.xxooo.cf/\"]}"
     },
     {
       "key": "SeedHub",
